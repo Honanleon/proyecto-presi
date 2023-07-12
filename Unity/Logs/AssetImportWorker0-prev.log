@@ -1,0 +1,911 @@
+Unity Editor version:    2022.3.4f1 (35713cd46cd7)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5.1 (Build 21G83)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/x/Documents/GitHub/proyecto-presi/Unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61859
+Successfully changed project path to: /Users/x/Documents/GitHub/proyecto-presi/Unity
+/Users/x/Documents/GitHub/proyecto-presi/Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4468614656] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 786991415 [EditorId] 786991415 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-x.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4468614656] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 786991415 [EditorId] 786991415 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-x.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/x/Documents/GitHub/proyecto-presi/Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel Iris Pro Graphics (low power)
+Metal devices available: 2
+0: NVIDIA GeForce GT 750M (high power)
+1: Intel Iris Pro Graphics (low power)
+Using device NVIDIA GeForce GT 750M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 750M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001750 seconds.
+- Loaded All Assemblies, in  0.540 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.399 seconds
+Domain Reload Profiling: 939ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (234ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (400ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (304ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/x/Documents/GitHub/proyecto-presi/Unity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/x/Documents/GitHub/proyecto-presi/Unity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.249 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.052 seconds
+Domain Reload Profiling: 2302ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (899ms)
+		LoadAssemblies (350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (633ms)
+			TypeCache.Refresh (563ms)
+				TypeCache.ScanAssembly (539ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1053ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (764ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5621 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 102 unused Assets / (1.3 MB). Loaded Objects now: 6065.
+Memory consumption went from 345.8 MB to 344.5 MB.
+Total: 6.905097 ms (FindLiveObjects: 0.521972 ms CreateObjectMapping: 0.395653 ms MarkObjects: 5.185572 ms  DeleteObjects: 0.800127 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PaperDoll.cs: d5adfc52b52aaed499f3516a70714440 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PaperDoll_Inspector.cs: 741c52ccc496cf25c12ef771866d70b1 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 147851.447083 seconds.
+  path: Assets/Scenes/Scene1.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene1.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62b4885742eaa6cc2a7aa56f52def55') in 0.002025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/x/Documents/GitHub/proyecto-presi/Unity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/x/Documents/GitHub/proyecto-presi/Unity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.683 seconds
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.696 seconds
+Domain Reload Profiling: 3380ms
+	BeginReloadAssembly (258ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (1322ms)
+		LoadAssemblies (540ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (889ms)
+			TypeCache.Refresh (862ms)
+				TypeCache.ScanAssembly (847ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1697ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5494 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.3 MB). Loaded Objects now: 6079.
+Memory consumption went from 325.0 MB to 323.7 MB.
+Total: 6.059857 ms (FindLiveObjects: 0.734503 ms CreateObjectMapping: 0.623292 ms MarkObjects: 4.032576 ms  DeleteObjects: 0.668415 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PaperDoll.cs: d5adfc52b52aaed499f3516a70714440 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PaperDoll_Inspector.cs: 741c52ccc496cf25c12ef771866d70b1 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140.482478 seconds.
+  path: Assets/MSC Animation Creator/AnimationSettings/so_baseCharacterSettings.asset
+  artifactKey: Guid(47328e0e6c11ea9449595ddbb3f4dc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/AnimationSettings/so_baseCharacterSettings.asset using Guid(47328e0e6c11ea9449595ddbb3f4dc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179f5a870826ecd69d8e0ff8dabc7d51') in 0.020635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MSC Animation Creator/AnimationSettings/so_spearCombatSettings.asset
+  artifactKey: Guid(75c44b4dcd51f714dbd718ec59320d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/AnimationSettings/so_spearCombatSettings.asset using Guid(75c44b4dcd51f714dbd718ec59320d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260de992beff24440c0289fda33d3df6') in 0.001412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 88.704669 seconds.
+  path: Assets/TestCharacter
+  artifactKey: Guid(619a92f5668884134bc0f8ebc4c764a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestCharacter using Guid(619a92f5668884134bc0f8ebc4c764a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8132e5c5773f37ebb1258196a857102') in 0.000909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.940058 seconds.
+  path: Assets/TestCharacter/animations
+  artifactKey: Guid(13c82c997454a4715a6623c5c167e72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestCharacter/animations using Guid(13c82c997454a4715a6623c5c167e72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d3ce59d4380c7895d934552e3b7170') in 0.000756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.869853 seconds.
+  path: Assets/TestCharacter/animController
+  artifactKey: Guid(bc6fe1e013bb146e9bf244a2198c2b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestCharacter/animController using Guid(bc6fe1e013bb146e9bf244a2198c2b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae84bdd5e642718bc4b3d1b51b48d81e') in 0.000756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.547774 seconds.
+  path: Assets/TestCharacter/sprites
+  artifactKey: Guid(201d48cafec6848e1a649c201d09baae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestCharacter/sprites using Guid(201d48cafec6848e1a649c201d09baae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2cdae76ce6f420788e262953b2b585') in 0.000856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.901485 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/empty_texture.png
+  artifactKey: Guid(07ebbbc7d3cfbe741a40570f92cff8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/empty_texture.png using Guid(07ebbbc7d3cfbe741a40570f92cff8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b526758f588e3046a14620a6e8d0ba') in 0.004847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3_sliced.png
+  artifactKey: Guid(f996770792ffaae438ff1e61b8e0fe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3_sliced.png using Guid(f996770792ffaae438ff1e61b8e0fe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b1fe661280868695a70c86d345057') in 0.094433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 9.435867 seconds.
+  path: Assets/TilePalletes/School.prefab
+  artifactKey: Guid(92afc765ab97248c69d0f88ba5f7ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TilePalletes/School.prefab using Guid(92afc765ab97248c69d0f88ba5f7ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1572ffd076803847f73faf090b29b6') in 0.003176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/Fulltilemap_2.asset
+  artifactKey: Guid(fd72df5aed8fa45789dac0134c45c829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_2.asset using Guid(fd72df5aed8fa45789dac0134c45c829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd3f02446e523b52bdbbddc48e4e71a') in 0.002941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tiles/Fulltilemap_1.asset
+  artifactKey: Guid(92eebbc86f6d345b99917361a796ec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_1.asset using Guid(92eebbc86f6d345b99917361a796ec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8a4f3c386f1d4c14d21be4e93615e9') in 0.001214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Tiles/Fulltilemap_10.asset
+  artifactKey: Guid(af8e821daf3814994a79d669ab0ef24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_10.asset using Guid(af8e821daf3814994a79d669ab0ef24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d03ec36601830957518285d8945b246') in 0.001192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tiles/Fulltilemap_12.asset
+  artifactKey: Guid(3172010eba65443768cbeae8d7277dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_12.asset using Guid(3172010eba65443768cbeae8d7277dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0fbb66ffd9ea28b170dc25bdf4f35a') in 0.001159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Tiles/Fulltilemap_7.asset
+  artifactKey: Guid(92f0c038bd7cb4336b0bdaa17c8d50fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_7.asset using Guid(92f0c038bd7cb4336b0bdaa17c8d50fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911579d9cb569280223c9da51a144742') in 0.001442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Tiles/Fulltilemap_6.asset
+  artifactKey: Guid(a4a387cab82de488f98a5782ef56c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_6.asset using Guid(a4a387cab82de488f98a5782ef56c024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fb5c714e015bb1699a03afaae33007') in 0.001361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.125619 seconds.
+  path: Assets/Tiles/Fulltilemap_13.asset
+  artifactKey: Guid(1fe687ee5c8df418c9317ca4e766288d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_13.asset using Guid(1fe687ee5c8df418c9317ca4e766288d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd5db71020db36affb10c5016f4499f') in 0.001309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.079153 seconds.
+  path: Assets/Tiles/Fulltilemap_14.asset
+  artifactKey: Guid(d4db89649847f422aab6b1b331787db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_14.asset using Guid(d4db89649847f422aab6b1b331787db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc1adb24f00aea8624d527101a83eb8') in 0.001417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002155 seconds.
+  path: Assets/Tiles/Fulltilemap_15.asset
+  artifactKey: Guid(b959a211e3f0e4eb19c8d8cc8a602e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_15.asset using Guid(b959a211e3f0e4eb19c8d8cc8a602e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a3865393aa73c368ce96a7c7138394') in 0.002281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Tiles/Fulltilemap_19.asset
+  artifactKey: Guid(d09f88e4229bb4de294c4de9def8065b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_19.asset using Guid(d09f88e4229bb4de294c4de9def8065b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befcb5c2440c850c6493afbbbc318432') in 0.001944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tiles/Fulltilemap_20.asset
+  artifactKey: Guid(96884f7d6f44c4966b5b2b91d42e70ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/Fulltilemap_20.asset using Guid(96884f7d6f44c4966b5b2b91d42e70ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d5885fd516fa13722e8f7f9a50652f') in 0.002908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 45.076382 seconds.
+  path: Assets/MSC Animation Creator/Prefabs/NPC.prefab
+  artifactKey: Guid(5c3fbea53f046314ca1a19a45ef020c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Prefabs/NPC.prefab using Guid(5c3fbea53f046314ca1a19a45ef020c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dba70e86d1c989e980bb261a5e9205c') in 0.001939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 14.182099 seconds.
+  path: Assets/Sprites/Resources/LabOutfit
+  artifactKey: Guid(bb44f6a1cabee48baa4fc330cef1af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Resources/LabOutfit using Guid(bb44f6a1cabee48baa4fc330cef1af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f3cac9db21b502265978d879ca76db') in 0.000483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.374728 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/Base/char_a_p2
+  artifactKey: Guid(b04fcb99b9af44745b9e953d4af5f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/Base/char_a_p2 using Guid(b04fcb99b9af44745b9e953d4af5f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a1de17a69736460bf83141d80570c8') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 117.509632 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1
+  artifactKey: Guid(8b9b79681c4a74684a2ca638b04ac6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1 using Guid(8b9b79681c4a74684a2ca638b04ac6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f450c35f400eff5b1ce28535851395') in 0.000446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.132372 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1/background.png
+  artifactKey: Guid(80806386bfacb4460a6a0cdceba944f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1/background.png using Guid(80806386bfacb4460a6a0cdceba944f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4661509ff117ba437e9e2fadda639e') in 0.015439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1/cloak.png
+  artifactKey: Guid(254cffe74737343f2bf230eff43cc39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1/cloak.png using Guid(254cffe74737343f2bf230eff43cc39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00412caf4282a54f865f19c8794952aa') in 0.102550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1/sectool.png
+  artifactKey: Guid(6474669fb3fe146a6832c02914b70c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1/sectool.png using Guid(6474669fb3fe146a6832c02914b70c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312c8b8ce00e69b7ae24fd77ff574ef0') in 0.014578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1/faceitems.png
+  artifactKey: Guid(793e381ce91154265be2f6373a3281df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1/faceitems.png using Guid(793e381ce91154265be2f6373a3281df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e941f1fe4a2d7e7c67287a1461eed340') in 0.014297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1/outfit.png
+  artifactKey: Guid(c036c5357caa444dbb2fb993a324ec4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1/outfit.png using Guid(c036c5357caa444dbb2fb993a324ec4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623040dc4744080444d12026566ce0e5') in 0.015175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 20.951789 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/background.png
+  artifactKey: Guid(7f0b57c123b5f4de5ac7685d0e67a653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/background.png using Guid(7f0b57c123b5f4de5ac7685d0e67a653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77006b901085e30fce842e700facdde') in 0.132404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p3/background.png
+  artifactKey: Guid(9151e8d5f74504aa993c6e35aa48c84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p3/background.png using Guid(9151e8d5f74504aa993c6e35aa48c84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d141487ff28eb6e480bf9354a50f47e') in 0.062711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/outfit.png
+  artifactKey: Guid(576a5471ed05c4644aa9634d91e6f473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/outfit.png using Guid(576a5471ed05c4644aa9634d91e6f473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e0fad698a8de35563279ffff3f3955') in 0.053160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/faceitems.png
+  artifactKey: Guid(c92fb6a63ff864265a666c7fb7b58587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/faceitems.png using Guid(c92fb6a63ff864265a666c7fb7b58587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a305a4e292b0995ebf46013d3386117a') in 0.017804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/pritool.png
+  artifactKey: Guid(674b38f9e094b4f1eadad0fa31310473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/pritool.png using Guid(674b38f9e094b4f1eadad0fa31310473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfe8e590cbe662082122c879eb36048') in 0.019361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p2/hat.png
+  artifactKey: Guid(1eeefedd5839444d7af3fa893849f6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p2/hat.png using Guid(1eeefedd5839444d7af3fa893849f6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfdadc172e78bff29f99bb1d61e58cf') in 0.017354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p3/body.png
+  artifactKey: Guid(eafb5976d76db4224997f8a3a30d2403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p3/body.png using Guid(eafb5976d76db4224997f8a3a30d2403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb0055e3b0f1dccdf2a7eee391a890c') in 0.016413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p4/body.png
+  artifactKey: Guid(186460e61f9d348709fc2edbb361769a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p4/body.png using Guid(186460e61f9d348709fc2edbb361769a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3c9b7f797801b375562e86556929d7') in 0.018918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p2/sectool.png
+  artifactKey: Guid(d676c4400d50f4fd4a99dc4dee2383d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p2/sectool.png using Guid(d676c4400d50f4fd4a99dc4dee2383d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd041fb8452265caa76e3d423779dc0f') in 0.018870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p2/outfit.png
+  artifactKey: Guid(21f4a8690d3874b2d9cf15dd3afac827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p2/outfit.png using Guid(21f4a8690d3874b2d9cf15dd3afac827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3ad80ccf1354d5b1744937a26c0a65') in 0.020516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1C/top.png
+  artifactKey: Guid(a3c76699e097142539b1e6a78851941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1C/top.png using Guid(a3c76699e097142539b1e6a78851941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d846e19d0aa7a190f3fe8b5bd2988c') in 0.017532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/sectool.png
+  artifactKey: Guid(786ee342ba9a744b7a5f93e32baf0c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/sectool.png using Guid(786ee342ba9a744b7a5f93e32baf0c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735f2a44343f2d760a4f3d9dd2fdc31e') in 0.018682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p3/cloak.png
+  artifactKey: Guid(0b4ed4cfd1f1d44e6811a48d7b6d18c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p3/cloak.png using Guid(0b4ed4cfd1f1d44e6811a48d7b6d18c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0377aa5070eb57e659d445b41f6180') in 0.012994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p3/outfit.png
+  artifactKey: Guid(bc897cd3209d74914bbae605fd98eba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p3/outfit.png using Guid(bc897cd3209d74914bbae605fd98eba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7325573b51f045e615750bdb7abdaad8') in 0.013367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p3/hair.png
+  artifactKey: Guid(33f60cf26c13b441b939ca2f06c60910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p3/hair.png using Guid(33f60cf26c13b441b939ca2f06c60910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89aa9bdefc6d358da1f4a50ad5bad96e') in 0.016082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p2/top.png
+  artifactKey: Guid(ad0acaa711f3843c0a50f8972eca9982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p2/top.png using Guid(ad0acaa711f3843c0a50f8972eca9982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804d45be7da48436d959f5037fb1c695') in 0.017668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p4/cloak.png
+  artifactKey: Guid(a81c100ee2bcf4319af508b0e4de2257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p4/cloak.png using Guid(a81c100ee2bcf4319af508b0e4de2257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba7d5d2bb5c1674dafbc361efb53401') in 0.019878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/top.png
+  artifactKey: Guid(722ffc0b454fd4b92a713d5a8b3371c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/top.png using Guid(722ffc0b454fd4b92a713d5a8b3371c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d166cf004f454305e51a6e66fd1dcd') in 0.019122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/hair.png
+  artifactKey: Guid(98b1b538c940b405ca4e906fda210d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1B/hair.png using Guid(98b1b538c940b405ca4e906fda210d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796bfc7773fc3f8628333a5a15305930') in 0.018541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1C/outfit.png
+  artifactKey: Guid(0ceed3842b72247f6bdde0abf655326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p1C/outfit.png using Guid(0ceed3842b72247f6bdde0abf655326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11066caf338cf6354fe3caae366ffc65') in 0.017253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.873050 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p4/faceitems.png
+  artifactKey: Guid(e3f2b453d3e2f4e5893abca8f123c0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p4/faceitems.png using Guid(e3f2b453d3e2f4e5893abca8f123c0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4633a1780c3f14d7567caab36f44aa') in 0.015980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p4/pritool.png
+  artifactKey: Guid(cea0a208dd6754e9790f4197ac08d431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p4/pritool.png using Guid(cea0a208dd6754e9790f4197ac08d431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1c253c135ce3977f8adc87d2769b3e') in 0.017325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p4/outfit.png
+  artifactKey: Guid(29e9b8d39fe0249f39f1484235e8d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/TestCharacter/sprites/p4/outfit.png using Guid(29e9b8d39fe0249f39f1484235e8d82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bddd2b4d75a4cd54196ed35c098b16') in 0.019822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 30.017060 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1/background.png
+  artifactKey: Guid(f440dbe415c0e5446a5ec17fee171eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1/background.png using Guid(f440dbe415c0e5446a5ec17fee171eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a3c9dfac6d6c421768bbc11bc2198d') in 0.017192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1/pritool.png
+  artifactKey: Guid(ba0c28385cef71e458d0cd2b121643ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1/pritool.png using Guid(ba0c28385cef71e458d0cd2b121643ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccf095b5b6c9022d5c6a3be6deff11c') in 0.018578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1/hair.png
+  artifactKey: Guid(ab95d382145faae4287cfcf41402a9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1/hair.png using Guid(ab95d382145faae4287cfcf41402a9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d516a76a9a2a71ca4a757ec2575df5') in 0.016759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1/sectool.png
+  artifactKey: Guid(37597a5fd56b42d429a9b0e182d52740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1/sectool.png using Guid(37597a5fd56b42d429a9b0e182d52740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a9d56b798949ebfee3c234d89bacbb') in 0.019690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1/top.png
+  artifactKey: Guid(eee3c67c42aa378458b51425e0c45cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1/top.png using Guid(eee3c67c42aa378458b51425e0c45cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd64928223b5d666fff0b24be5a16871') in 0.020800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 59.715191 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1B/background.png
+  artifactKey: Guid(52955cc547d67e24f8d855722165e25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1B/background.png using Guid(52955cc547d67e24f8d855722165e25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b803e7d51924cfc78006c151ed7e0f8') in 0.127245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1B/top.png
+  artifactKey: Guid(05e79d95ebb334a4880cf7aebf28b0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1B/top.png using Guid(05e79d95ebb334a4880cf7aebf28b0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0f826edd365b803b906862392487d6') in 0.015911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1B/faceitems.png
+  artifactKey: Guid(83d273e461ba5644ba3c00d3224f4fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1B/faceitems.png using Guid(83d273e461ba5644ba3c00d3224f4fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ebce939877c198a948fba16682c6b7') in 0.017411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1B/outfit.png
+  artifactKey: Guid(7d47fce90991620498bfd0d49330b349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1B/outfit.png using Guid(7d47fce90991620498bfd0d49330b349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8716b8bdb29413ab583fcb2d216a0eb4') in 0.017279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 2.047973 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1C/background.png
+  artifactKey: Guid(7b76afb028a9f4e4498c93fa5feb11d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1C/background.png using Guid(7b76afb028a9f4e4498c93fa5feb11d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d7c2654766111c2b3239bc7316792f') in 0.015176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1C/pritool.png
+  artifactKey: Guid(bc7e81f58d5c62e478f4344f02bd1bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1C/pritool.png using Guid(bc7e81f58d5c62e478f4344f02bd1bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2671adb73abd7cb717e55b129311e0') in 0.015951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1C/sectool.png
+  artifactKey: Guid(55e9481fe01fa134990671fd9d6640ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1C/sectool.png using Guid(55e9481fe01fa134990671fd9d6640ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f29352ce2e76eb80349812eb7adc4c') in 0.014832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1C/hat.png
+  artifactKey: Guid(98810687c92dc85439780b5461a67ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1C/hat.png using Guid(98810687c92dc85439780b5461a67ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd475a3b754a4ac5fddbc43d2a43fd0') in 0.019102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1C/faceitems.png
+  artifactKey: Guid(dfac75279a9ba7d4091fcad5fc7ffe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p1C/faceitems.png using Guid(dfac75279a9ba7d4091fcad5fc7ffe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bd05312692ce58ed7517554e4ec6d1') in 0.015423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 4.479851 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p2/background.png
+  artifactKey: Guid(3e38f9c79966fbd4cb3ed943eb1647a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p2/background.png using Guid(3e38f9c79966fbd4cb3ed943eb1647a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9669617b7c65da430f8bbb9dd36146f') in 0.014892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p2/outfit.png
+  artifactKey: Guid(56caed7f4be5b5d49983fc33c5bdf42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p2/outfit.png using Guid(56caed7f4be5b5d49983fc33c5bdf42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d347ae65fb373b25dffb27eeaf5f80') in 0.016464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p2/faceitems.png
+  artifactKey: Guid(c878e9e0dcc4b704bb9d4bbd68162bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p2/faceitems.png using Guid(c878e9e0dcc4b704bb9d4bbd68162bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4e418aad94ed83bab8bc6b3cdf4054') in 0.013441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p2/sectool.png
+  artifactKey: Guid(ecb20771ff242ec45beb3e049bdb1582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p2/sectool.png using Guid(ecb20771ff242ec45beb3e049bdb1582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bac0a88059839cf4262ed4fd0dbdb90') in 0.015643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p2/pritool.png
+  artifactKey: Guid(b6fc283f4249897419f8587c107ebee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p2/pritool.png using Guid(b6fc283f4249897419f8587c107ebee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7b0356b08e41390653b9354d1e059d') in 0.017665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 1.103342 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3/background.png
+  artifactKey: Guid(c8abda03eed4d3244b66f394e6ee0136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3/background.png using Guid(c8abda03eed4d3244b66f394e6ee0136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c877466fd8036c96fe5170cd397520') in 0.012460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3/faceitems.png
+  artifactKey: Guid(a58fdc861b9d5ee4687a5bbe1ff1be37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3/faceitems.png using Guid(a58fdc861b9d5ee4687a5bbe1ff1be37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6d85dd988395ac4a21f0e4dc0c1d6e') in 0.010609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3/outfit.png
+  artifactKey: Guid(6f081b919c000e3459f1a2a3a43df1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3/outfit.png using Guid(6f081b919c000e3459f1a2a3a43df1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55332c771507c96633281c902f12389') in 0.012296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3/hair.png
+  artifactKey: Guid(ddf669865d07e3444a9317d8942805dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3/hair.png using Guid(ddf669865d07e3444a9317d8942805dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f18a72d4705bfd4507d6cc81573d69') in 0.010484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3/pritool.png
+  artifactKey: Guid(11b9734e696cabb41b9fe7997d065197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p3/pritool.png using Guid(11b9734e696cabb41b9fe7997d065197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89af0843788b9eda9fbc6c386b938114') in 0.011819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.419933 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p4/background.png
+  artifactKey: Guid(9743789550c00464e872d8891f0395ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p4/background.png using Guid(9743789550c00464e872d8891f0395ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7e10fd1c9294be7bc0579bbd1df344') in 0.015375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p4/faceitems.png
+  artifactKey: Guid(df80d5cb86d492d4a98c19226d86c273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p4/faceitems.png using Guid(df80d5cb86d492d4a98c19226d86c273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ce28324554cbb7cc4f3ee8aa2e7b0b') in 0.016949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p4/hair.png
+  artifactKey: Guid(d294d14422407134384392ad4ad20a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p4/hair.png using Guid(d294d14422407134384392ad4ad20a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f986c354c9e23d1dda03a6e91e0b29ad') in 0.019058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p4/top.png
+  artifactKey: Guid(96b27a68d69f2e0478fad2d62c37a7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p4/top.png using Guid(96b27a68d69f2e0478fad2d62c37a7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603455f8b29300eeb7d26efa7ca85638') in 0.015991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p4/sectool.png
+  artifactKey: Guid(34ed51d67c4d7fc49899e2b941fc1b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MSC Animation Creator/Resources/pre_sliced_sprites/p4/sectool.png using Guid(34ed51d67c4d7fc49899e2b941fc1b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3b09911d37abc295c70bd316271445') in 0.017139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
